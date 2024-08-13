@@ -11,5 +11,5 @@
 
 ## Reverse dependencies
 
-No reverse dependencies on CRAN, checked reverse dependency on Bioconductor (lipidr). 
+Checked shinyExprPortal
 ---

@@ -4,17 +4,23 @@
   "identifier": "iheatmapr",
   "description": "Make complex, interactive heatmaps. 'iheatmapr' includes a modular system for iteratively building up complex heatmaps, as well as the iheatmap() function for making relatively standard heatmaps.",
   "name": "iheatmapr: Interactive, Complex Heatmaps",
-  "relatedLink": "https://docs.ropensci.org/iheatmapr",
+  "relatedLink": ["https://docs.ropensci.org/iheatmapr/", "https://CRAN.R-project.org/package=iheatmapr"],
   "codeRepository": "https://github.com/ropensci/iheatmapr",
   "issueTracker": "https://github.com/ropensci/iheatmapr/issues",
   "license": "https://spdx.org/licenses/MIT",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.3.1 (2023-06-16)",
+  "runtimePlatform": "R Under development (unstable) (2024-01-22 r85820)",
+  "provider": {
+    "@id": "https://cran.r-project.org",
+    "@type": "Organization",
+    "name": "Comprehensive R Archive Network (CRAN)",
+    "url": "https://cran.r-project.org"
+  },
   "author": [
     {
       "@type": "Person",
@@ -342,7 +348,7 @@
   "applicationCategory": "Visualization",
   "isPartOf": "https://ropensci.org",
   "keywords": ["heatmap", "plotly", "r", "interactive-visualizations", "data-visualization", "htmlwidgets", "rstats", "r-package", "peer-reviewed"],
-  "fileSize": "22659.166KB",
+  "fileSize": "15348.235KB",
   "citation": [
     {
       "@type": "ScholarlyArticle",

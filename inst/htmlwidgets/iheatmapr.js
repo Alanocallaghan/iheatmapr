@@ -8,7 +8,9 @@ HTMLWidgets.widget({
   },
   
   resize: function(el, width, height, instance) {
-    Plotly.relayout(el.id, {width: width, height: height});
+    if (instance.autosize) {
+      Plotly.relayout(el.id, {width: width, height: height});
+    }
   },  
   
   renderValue: function(el, x, instance) {
